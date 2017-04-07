@@ -1,0 +1,9 @@
+time:
+leveldb: 2.82647705078125
+lmdb: 1.5179588794708252
+nodb: 11.241425037384033
+
+storage:
+leveldb: 1.52 GB
+lmdb: 1.78 GB
+nodb: 1.78 GB

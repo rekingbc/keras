@@ -46,10 +46,3 @@ def load_db(db_path, img_size=(224,224)):
         imglist.append(img)
 
     return imglist
-
-# Write the features to database
-
-def write_feature(db_path, converted_db_path, method='isohashlp', count,
-                      vector_size = 64, iter = 200):
-
-#write hash features as key to index the images

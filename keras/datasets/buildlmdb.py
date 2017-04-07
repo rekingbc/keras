@@ -33,12 +33,3 @@ def load_db(db_path,imgsize=(224,224)):
             imgitem = value
             img = Image.frombytes('RGB',imgsize,imgitem)
             imglist.append(img)
-
-
-# Write the deep convolutional features of images
-# to database
-
-def write_feature():
-
-# Write the deep convolutional features of images
-# to database
